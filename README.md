@@ -1,20 +1,24 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [Whatsapp Web](https://web.whatsapp.com)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark theme for [Whatsapp Web](https://web.whatsapp.com).
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot/01.Dracula_Whatsapp.png)
+
+> Alucard, a light theme.
+
+![Screenshot](./screenshot/02.Alucard_Whatsapp.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/foobar).
+All instructions can be found at [draculatheme.com/whatsapp](https://draculatheme.com/whatsapp).
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/whatsapp/graphs/contributors).
 
-| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               | [Lucas de França](https://github.com/luxonauta)                                               |
+| [![Universe](https://github.com/UniverseKing654.png?size=100)](https://github.com/UniverseKing654) |
+| -------------------------------------------------------------------------------------------------- |
+| [Universe](https://github.com/UniverseKing654)                                                     |
 
 ## Community
 

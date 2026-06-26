@@ -1,19 +1,19 @@
-### [Foobar](https://foobar.com)
+### [Whatsapp Web](https://web.whatsapp.com/)
 
-#### Install using Git
+#### Prerequisites
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+Install the Stylus browser extension first:
 
-```bash
-git clone https://github.com/dracula/foobar.git
-```
-
-#### Install manually
-
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+- **Chrome/Edge/Brave**: [Chrome Web Store](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne);
+- **Firefox**: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 
 #### Activating theme
 
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+1. **Open the theme file**: Visit [Whatsapp Web Dracula Theme](https://github.com/UniverseKing654/Dracula-Whatsapp-Web/main/whatsapp-web-dracula.user.css);
+
+2. **Install the theme**: Click the "Install" button when prompted by Stylus;
+
+3. **Automatic activation**: The theme will immediately apply to all Whatsapp Web pages.
+
+> Navigate to [Whatsapp Web](https://web.whatsapp.com/) to see the new Dracula theme applied automatically. ✨
+
