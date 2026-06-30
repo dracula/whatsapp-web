@@ -1,248 +1,237 @@
 /* ==UserStyle==
-@name           Whatsapp Web Dracula
-@namespace      github.com/UniverseKing654
+@name           WhatsApp Web Dracula
+@namespace      github.com/dracula
 @version        1.0.0
-@description    A dark theme for Whatsapp Web based on the Dracula color scheme.
-@author         Universe (http://github.com/UniverseKing654)
+@description    Dracula and Alucard themes for WhatsApp Web based on the Dracula color scheme.
+@author         Universe (https://github.com/UniverseKing654)
 ==/UserStyle== */
 
-
-@-moz-document url-prefix("https://web.whatsapp.com/") {
-/* Dracula */
-@media (prefers-color-scheme: dark) {
-    
+@-moz-document url-prefix("https://web.whatsapp.com/")
+{
+  /* Dracula */
+  @media (prefers-color-scheme: dark) {
     :root {
-        --darker-background: #191a21;
-        --dark-background: #21222C;
-        --background: #282a36;
-        --comment: #6272a4;
-        --current: var(--comment);
-        --selection: #44475a;
-        --foreground: #F8F8F2;
-        --red: #FF5555;
-        --cyan: #8be9fd;
-        --orange: #ffb86c;
-        --yellow: #f1fa8c;
-        --pink: #ff79c6;
-        --purple: #bd93f9;
-        --green: #50fa7b;
-    
-        --text: var(--foreground);
-    
+      --darker-background: #191a21;
+      --dark-background: #21222c;
+      --background: #282a36;
+      --comment: #6272a4;
+      --current: var(--comment);
+      --selection: #44475a;
+      --foreground: #f8f8f2;
+      --red: #ff5555;
+      --cyan: #8be9fd;
+      --orange: #ffb86c;
+      --yellow: #f1fa8c;
+      --pink: #ff79c6;
+      --purple: #bd93f9;
+      --green: #50fa7b;
+
+      --text: var(--foreground);
     }
-    
+
     .dark * {
-        scrollbar-color: var(--foreground) transparent;
+      scrollbar-color: var(--foreground) transparent;
     }
 
-    
-    #main{
-        background-color: var(--darker-background) !important;
+    #main {
+      background-color: var(--darker-background) !important;
     }
-    
-    .xfmqtgv.xfmqtgv, .xfmqtgv.xfmqtgv:root{
-        
-        /* Contact names and messages */
-        --WDS-content-default: var(--text);
-        
-        /* Background for conversation header, chatlist header and chatlist contacts */
-        --WDS-surface-default: var(--dark-background);
-        
-        /* Conversation chat bar input */
-        --WDS-systems-chat-surface-composer: var(--background);
-        
-        /* Chatlist notification background and selected pill */
-        --WDS-accent-deemphasized: var(--selection);
-        
-        /* Chats and pills on hover */
-        --WDS-surface-highlight: rgb(from var(--current) r g b / 0.25) !important;
-        
-        /* Read icon */
-        --WDS-content-read: var(--cyan) !important;
-        
-        /* Sidebar messages and unselected icons */
-        --WDS-content-deemphasized: rgb(from var(--foreground) r g b / 0.8);
-        
-        /* Notification icon and unread chats time */
-        --WDS-accent: var(--green);
-        
-        /* Read more */
-        --WDS-content-action-emphasized: var(--green);
-        
-        /* Links */
-        --WDS-content-external-link: var(--green);
-        
-        /* Stickers menu background */
-        --WDS-surface-elevated-default: var(--dark-background);
-        
-        /* Stickers menu active section icon and create button background */
-        --WDS-surface-elevated-emphasized: var(--background);
-        
-        /* Incoming message */
-        --WDS-systems-bubble-surface-incoming: var(--background);
-        
-        /* Unread messages number background */
-        --WDS-persistent-always-branded: var(--green);
-        
-        /* Selected pill text background */
-        --WDS-accent-emphasized: var(--green);
-        
-        /* Selected pill text */
-        --WDS-content-on-accent: var(--background);
-        
-        /* Unselected chat background */
-        --WDS-background-elevated-wash-inset: var(--dark-background);
-        
-        /* Chat date bubble */
-        --WDS-systems-bubble-surface-system: var(--background);
-        
-        /* Negative action text and icons*/
-        --WDS-secondary-negative-emphasized: var(--red);
-        
-        /* Sidebar and pinned messages on chat background */
-        --WDS-surface-emphasized: var(--background);
-        
-        /* Loading screen background */
-        --WDS-background-wash-inset: var(--dark-background);
-        
+
+    .xfmqtgv.xfmqtgv,
+    .xfmqtgv.xfmqtgv:root {
+      /* Contact names and messages */
+      --WDS-content-default: var(--text);
+
+      /* Background for conversation header, chatlist header and chatlist contacts */
+      --WDS-surface-default: var(--dark-background);
+
+      /* Conversation chat bar input */
+      --WDS-systems-chat-surface-composer: var(--background);
+
+      /* Chatlist notification background and selected pill */
+      --WDS-accent-deemphasized: var(--selection);
+
+      /* Chats and pills on hover */
+      --WDS-surface-highlight: rgb(from var(--current) r g b / 0.25) !important;
+
+      /* Read icon */
+      --WDS-content-read: var(--cyan) !important;
+
+      /* Sidebar messages and unselected icons */
+      --WDS-content-deemphasized: rgb(from var(--foreground) r g b / 0.8);
+
+      /* Notification icon and unread chats time */
+      --WDS-accent: var(--green);
+
+      /* Read more */
+      --WDS-content-action-emphasized: var(--green);
+
+      /* Links */
+      --WDS-content-external-link: var(--green);
+
+      /* Stickers menu background */
+      --WDS-surface-elevated-default: var(--dark-background);
+
+      /* Stickers menu active section icon and create button background */
+      --WDS-surface-elevated-emphasized: var(--background);
+
+      /* Incoming message */
+      --WDS-systems-bubble-surface-incoming: var(--background);
+
+      /* Unread messages number background */
+      --WDS-persistent-always-branded: var(--green);
+
+      /* Selected pill text background */
+      --WDS-accent-emphasized: var(--green);
+
+      /* Selected pill text */
+      --WDS-content-on-accent: var(--background);
+
+      /* Unselected chat background */
+      --WDS-background-elevated-wash-inset: var(--dark-background);
+
+      /* Chat date bubble */
+      --WDS-systems-bubble-surface-system: var(--background);
+
+      /* Negative action text and icons*/
+      --WDS-secondary-negative-emphasized: var(--red);
+
+      /* Sidebar and pinned messages on chat background */
+      --WDS-surface-emphasized: var(--background);
+
+      /* Loading screen background */
+      --WDS-background-wash-inset: var(--dark-background);
     }
-   
+
     /* Icons and menu options overlay */
-    .x1wb366y:hover::after, .xs2atcs:hover, .x1hlseku::after{
-        background-color: rgb(from var(--current) r g b / 0.25);
+    .x1wb366y:hover::after,
+    .xs2atcs:hover,
+    .x1hlseku::after {
+      background-color: rgb(from var(--current) r g b / 0.25);
     }
-    
-    
+
     /* Negative actions background */
-    .x3039w2:hover{
-        background-color: rgb(from var(--red) r g b / 0.1);
+    .x3039w2:hover {
+      background-color: rgb(from var(--red) r g b / 0.1);
     }
-    
+
     /* Current chat and chatlist search bar */
-    .x4wrhlh{
-        background-color: var(--background);
+    .x4wrhlh {
+      background-color: var(--background);
     }
-   
-    
-}
+  }
 
-/* Alucard */
+  /* Alucard */
 
-@media (prefers-color-scheme: light) {
-    
+  @media (prefers-color-scheme: light) {
     :root {
-        --darker-background: #BCBAB3;
-        --dark-background: #CECCC0;
-        --background: #FFFBEB;
-        --comment: #6C664B;
-        --current: var(--comment);
-        --selection: #CFCFDE;
-        --foreground: #1F1F1F;
-        --red: #CB3A2A;
-        --cyan: #036A96;
-        --orange: #A34D14;
-        --yellow: #846E15;
-        --pink: #A3144D;
-        --purple: #644AC9;
-        --green: #14710A;
-    
-        --text: var(--foreground);
-    
+      --darker-background: #bcbab3;
+      --dark-background: #ceccc0;
+      --background: #fffbeb;
+      --comment: #6c664b;
+      --current: var(--comment);
+      --selection: #cfcfde;
+      --foreground: #1f1f1f;
+      --red: #cb3a2a;
+      --cyan: #036a96;
+      --orange: #a34d14;
+      --yellow: #846e15;
+      --pink: #a3144d;
+      --purple: #644ac9;
+      --green: #14710a;
+
+      --text: var(--foreground);
     }
-    
+
     .dark * {
-        scrollbar-color: var(--foreground) transparent;
+      scrollbar-color: var(--foreground) transparent;
     }
 
-    
-    #main{
-        background-color: var(--darker-background) !important;
+    #main {
+      background-color: var(--darker-background) !important;
     }
-    
-    .xfmqtgv.xfmqtgv, .xfmqtgv.xfmqtgv:root{
-        
-        /* Contact names and messages */
-        --WDS-content-default: var(--text);
-        
-        /* Background for conversation header, chatlist header and chatlist contacts */
-        --WDS-surface-default: var(--background);
-        
-        /* Conversation chat bar input */
-        --WDS-systems-chat-surface-composer: var(--background);
-        
-        /* Chatlist notification background and selected pill */
-        --WDS-accent-deemphasized: rgb( from var(--green) r g b / 0.1);
-        
-        /* Chats and pills on hover */
-        --WDS-surface-highlight: rgb(from var(--current) r g b / 0.25) !important;
-        
-        /* Read icon */
-        --WDS-content-read: var(--cyan) !important;
-        
-        /* Sidebar messages and unselected icons */
-        --WDS-content-deemphasized: rgb(from var(--foreground) r g b / 0.8);
-        
-        /* Notification icon and unread chats time */
-        --WDS-accent: var(--green);
-        
-        /* Read more */
-        --WDS-content-action-emphasized: var(--green);
-        
-        /* Links */
-        --WDS-content-external-link: var(--green);
-        
-        /* Stickers menu background */
-        --WDS-surface-elevated-default: var(--dark-background);
-        
-        /* Stickers menu active section icon and create button background */
-        --WDS-surface-elevated-emphasized: var(--background);
-        
-        /* Incoming message */
-        --WDS-systems-bubble-surface-incoming: var(--background);
-        
-        /* Unread messages number background */
-        --WDS-persistent-always-branded: var(--green);
-        
-        /* Selected pill text background */
-        --WDS-accent-emphasized: var(--green);
-        
-        /* Selected pill text */
-        --WDS-content-on-accent: var(--background);
-        
-        /* Unselected chat background */
-        --WDS-background-elevated-wash-inset: var(--dark-background);
-        
-        /* Chat date bubble */
-        --WDS-systems-bubble-surface-system: var(--background);
-        
-        /* Negative action text and icons*/
-        --WDS-secondary-negative-emphasized: var(--red);
-        
-        /* Sidebar and pinned messages on chat background */
-        --WDS-surface-emphasized: var(--dark-background);
-        
-        /* Loading screen background */
-        --WDS-background-wash-inset: var(--dark-background);
-        
+
+    .xfmqtgv.xfmqtgv,
+    .xfmqtgv.xfmqtgv:root {
+      /* Contact names and messages */
+      --WDS-content-default: var(--text);
+
+      /* Background for conversation header, chatlist header and chatlist contacts */
+      --WDS-surface-default: var(--background);
+
+      /* Conversation chat bar input */
+      --WDS-systems-chat-surface-composer: var(--background);
+
+      /* Chatlist notification background and selected pill */
+      --WDS-accent-deemphasized: rgb(from var(--green) r g b / 0.1);
+
+      /* Chats and pills on hover */
+      --WDS-surface-highlight: rgb(from var(--current) r g b / 0.25) !important;
+
+      /* Read icon */
+      --WDS-content-read: var(--cyan) !important;
+
+      /* Sidebar messages and unselected icons */
+      --WDS-content-deemphasized: rgb(from var(--foreground) r g b / 0.8);
+
+      /* Notification icon and unread chats time */
+      --WDS-accent: var(--green);
+
+      /* Read more */
+      --WDS-content-action-emphasized: var(--green);
+
+      /* Links */
+      --WDS-content-external-link: var(--green);
+
+      /* Stickers menu background */
+      --WDS-surface-elevated-default: var(--dark-background);
+
+      /* Stickers menu active section icon and create button background */
+      --WDS-surface-elevated-emphasized: var(--background);
+
+      /* Incoming message */
+      --WDS-systems-bubble-surface-incoming: var(--background);
+
+      /* Unread messages number background */
+      --WDS-persistent-always-branded: var(--green);
+
+      /* Selected pill text background */
+      --WDS-accent-emphasized: var(--green);
+
+      /* Selected pill text */
+      --WDS-content-on-accent: var(--background);
+
+      /* Unselected chat background */
+      --WDS-background-elevated-wash-inset: var(--dark-background);
+
+      /* Chat date bubble */
+      --WDS-systems-bubble-surface-system: var(--background);
+
+      /* Negative action text and icons*/
+      --WDS-secondary-negative-emphasized: var(--red);
+
+      /* Sidebar and pinned messages on chat background */
+      --WDS-surface-emphasized: var(--dark-background);
+
+      /* Loading screen background */
+      --WDS-background-wash-inset: var(--dark-background);
     }
-   
+
     /* Icons and menu options overlay */
-    .x1wb366y:hover::after, .xs2atcs:hover, .x1hlseku::after{
-        background-color: rgb(from var(--current) r g b / 0.25);
+    .x1wb366y:hover::after,
+    .xs2atcs:hover,
+    .x1hlseku::after {
+      background-color: rgb(from var(--current) r g b / 0.25);
     }
-    
-    
-    /* Negative actions background */
-    .x3039w2:hover{
-        background-color: rgb(from var(--red) r g b / 0.1);
-    }
-    
-    /* Current chat and chatlist search bar */
-    .x4wrhlh{
-        background-color: var(--background);
-    }
-   
-    
-}
 
+    /* Negative actions background */
+    .x3039w2:hover {
+      background-color: rgb(from var(--red) r g b / 0.1);
+    }
+
+    /* Current chat and chatlist search bar */
+    .x4wrhlh {
+      background-color: var(--background);
+    }
+  }
 }

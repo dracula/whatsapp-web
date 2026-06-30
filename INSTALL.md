@@ -1,19 +1,20 @@
-### [Whatsapp Web](https://web.whatsapp.com/)
+### [WhatsApp Web](https://web.whatsapp.com/)
 
 #### Prerequisites
 
-Install the Stylus browser extension first:
+Install [Stylus](https://add0n.com/stylus.html):
 
 - **Chrome/Edge/Brave**: [Chrome Web Store](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne);
 - **Firefox**: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 
 #### Activating theme
 
-1. **Open the theme file**: Visit [Whatsapp Web Dracula Theme](https://github.com/UniverseKing654/Dracula-Whatsapp-Web/main/whatsapp-web-dracula.user.css);
+1. [Click here to install Dracula for WhatsApp Web](https://github.com/dracula/whatsapp/raw/main/whatsapp-web-dracula.user.css);
+2. Confirm the installation when Stylus prompts you;
+3. Open [WhatsApp Web](https://web.whatsapp.com/) — the theme applies automatically.
 
-2. **Install the theme**: Click the "Install" button when prompted by Stylus;
+> **Dracula and Alucard:** this theme follows your system color scheme. Use dark mode for Dracula and light mode for Alucard.
 
-3. **Automatic activation**: The theme will immediately apply to all Whatsapp Web pages.
+#### Install manually
 
-> Navigate to [Whatsapp Web](https://web.whatsapp.com/) to see the new Dracula theme applied automatically. ✨
-
+Find the style file on GitHub [here](https://github.com/dracula/whatsapp/blob/main/whatsapp-web-dracula.user.css) and add it to Stylus manually.

@@ -1,12 +1,12 @@
-# Dracula for [Whatsapp Web](https://web.whatsapp.com)
+# Dracula for [WhatsApp Web](https://web.whatsapp.com)
 
-> A dark theme for [Whatsapp Web](https://web.whatsapp.com).
+> A dark theme for [WhatsApp Web](https://web.whatsapp.com).
 
-![Screenshot](./screenshot/01.Dracula_Whatsapp.png)
+![Screenshot](./screenshot/01-dracula.png)
 
 > Alucard, a light theme.
 
-![Screenshot](./screenshot/02.Alucard_Whatsapp.png)
+![Screenshot](./screenshot/02-alucard.png)
 
 ## Install
 
