@@ -9,7 +9,7 @@ Install [Stylus](https://add0n.com/stylus.html):
 
 #### Activating theme
 
-1. [Click here to install Dracula for WhatsApp Web](https://github.com/dracula/whatsapp/raw/main/whatsapp-web-dracula.user.css);
+1. [Click here to install Dracula for WhatsApp Web](https://raw.githubusercontent.com/dracula/whatsapp-web/main/whatsapp-web-dracula.user.css);
 2. Confirm the installation when Stylus prompts you;
 3. Open [WhatsApp Web](https://web.whatsapp.com/) — the theme applies automatically.
 
@@ -17,4 +17,4 @@ Install [Stylus](https://add0n.com/stylus.html):
 
 #### Install manually
 
-Find the style file on GitHub [here](https://github.com/dracula/whatsapp/blob/main/whatsapp-web-dracula.user.css) and add it to Stylus manually.
+Find the style file on GitHub [here](https://github.com/dracula/whatsapp-web/blob/main/whatsapp-web-dracula.user.css) and add it to Stylus manually.
