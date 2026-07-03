@@ -10,11 +10,11 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/whatsapp](https://draculatheme.com/whatsapp).
+All instructions can be found at [draculatheme.com/whatsapp-web](https://draculatheme.com/whatsapp-web).
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/whatsapp/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/whatsapp-web/graphs/contributors).
 
 | [![Universe](https://github.com/UniverseKing654.png?size=100)](https://github.com/UniverseKing654) |
 | -------------------------------------------------------------------------------------------------- |
